@@ -5,7 +5,7 @@
   <div class="col-md-10 col-md-offset-2">
       <h2>ブログ記事一覧</h2>
       @if (session('err_msg'))
-          <p class="text_tanger">
+          <p class="text-danger">
           {{  session('err_msg')  }}
           </p>
       @endif

@@ -11,6 +11,7 @@ class Blog extends Model
 
     protected $table = 'blogs';
 
+    //可変項目
     protected $fillable =
     [
         'title',

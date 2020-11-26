@@ -25,7 +25,7 @@ class BlogFactory extends Factory
         return [
             //
             'title'=>$this->faker->text(20),
-            'content'=>$this->faker->text(20),
+            'content'=>$this->faker->realText,
         ];
     }
 }
